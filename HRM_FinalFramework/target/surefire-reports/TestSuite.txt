@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 68.83 sec <<< FAILURE! - in TestSuite
+verifyOrangeHRM(TestScripts.Tc1_Login)  Time elapsed: 36 sec  <<< FAILURE!
+java.io.FileNotFoundException: C:\SelebiunDefault\HRM_FinalFramework\src\main\java\ElementLocators\Login.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at BusinessFunctions.Login.setUp(Login.java:20)
+	at TestScripts.Tc1_Login.verifyOrangeHRM(Tc1_Login.java:14)
+
+AddEmployee(TestScripts.TC2_AddEmp)  Time elapsed: 32.157 sec  <<< FAILURE!
+java.io.FileNotFoundException: C:\SelebiunDefault\HRM_FinalFramework\src\main\java\ElementLocators\Login.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at BusinessFunctions.Login.setUp(Login.java:20)
+	at TestScripts.TC2_AddEmp.AddEmployee(TC2_AddEmp.java:14)
+
